@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		E78B887A251602AD00D20171 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78B8878251602AD00D20171 /* Main.storyboard */; };
 		E78B887C251602B000D20171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78B887B251602B000D20171 /* Assets.xcassets */; };
 		E78B887F251602B000D20171 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78B887D251602B000D20171 /* LaunchScreen.storyboard */; };
+		E78B888C25162D8E00D20171 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78B888B25162D8E00D20171 /* Animation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E78B887B251602B000D20171 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E78B887E251602B000D20171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E78B8880251602B000D20171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E78B888B25162D8E00D20171 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,6 @@
 				98661A7718D0250E4F32E39A /* Pods-SpringTime.debug.xcconfig */,
 				0C7326D2042DA48B01F56221 /* Pods-SpringTime.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -93,6 +94,7 @@
 		E78B88862516031200D20171 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E78B888B25162D8E00D20171 /* Animation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -249,6 +251,7 @@
 			files = (
 				E78B8877251602AD00D20171 /* ViewController.swift in Sources */,
 				E78B8873251602AD00D20171 /* AppDelegate.swift in Sources */,
+				E78B888C25162D8E00D20171 /* Animation.swift in Sources */,
 				E78B8875251602AD00D20171 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
